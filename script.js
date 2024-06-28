@@ -5,6 +5,6 @@ function toggleMode() {
     if (body.classList.contains("light")) {
         img.setAttribute("src", "./assets/profile-light.png")
     } else {
-        img.setAttribute("src", "/assets/profile-dark.png")
+        img.setAttribute("src", "./assets/profile-dark.png")
     }
 }
